@@ -63,3 +63,6 @@ Basic Sprachfeatures, Keywords, Naming und Conventions von C#, gegebenenfalls au
 * Compiling und was dabei passiert
 * Attribute (vs. Data Annotations in Java)
 * Action Filter (ASP)
+* Top-Level Statements
+* Top-Level Constructors
+* records
