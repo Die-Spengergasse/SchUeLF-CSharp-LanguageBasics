@@ -16,7 +16,7 @@ Basic Sprachfeatures, Keywords, Naming und Conventions von C#, gegebenenfalls au
     * is/as
     * switch-Statement + fall through
     * goto (Das gibts wirklich)
-    * ref-Parameters (ref, out (CallByValue/CallByReference))
+    * ref-Parameters (ref, ref readonly, out (CallByValue/CallByReference))
         * Boxing / Unboxing
     * sealed Classes (final in Java)
     * implicit/explicit
@@ -40,6 +40,7 @@ Basic Sprachfeatures, Keywords, Naming und Conventions von C#, gegebenenfalls au
 * Überladene Operatoren (z.B.: == mit neuer Fumktion belegen)
 * Überladene (user defined) Type Casts (implizit/explizit)
 * Initializer
+* Alias Any Type
 
 ### Basics
 
@@ -48,11 +49,14 @@ Basic Sprachfeatures, Keywords, Naming und Conventions von C#, gegebenenfalls au
 * Formating (Numbers, Dates, Times, ...)
 * Destructor
 * Vererbung (virtual-Keyword, ...)
-* Collections (Übersicht, foreach-Keyword) 
+* Collections (Übersicht, foreach-Keyword)
+* Collection-Expressions
+* Spread-Operator ( [..])
 * Indexer
-* Lambda-Expressions
+* Lambda-Expressions (Default Lambda Parameters)
 * Anonymous Types
 * LinQ
+* Return Tuples
 
 ### Weitere Themen
 
@@ -66,3 +70,5 @@ Basic Sprachfeatures, Keywords, Naming und Conventions von C#, gegebenenfalls au
 * Top-Level Statements
 * Top-Level Constructors
 * records
+* Experimental Attribute
+* Interceptors
